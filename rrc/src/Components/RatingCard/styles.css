@@ -1,0 +1,22 @@
+
+.ratingCard {
+    width: 320px;
+    background: linear-gradient(#222932, #171D25);
+    text-align: left;
+}
+
+.starButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.03);
+    margin-bottom: 10px;
+}
+
+.cardActions {
+    align-items: center;
+    justify-content: center;
+}
