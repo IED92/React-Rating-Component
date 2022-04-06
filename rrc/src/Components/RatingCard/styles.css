@@ -1,22 +1,53 @@
 
 .ratingCard {
-    width: 320px;
-    background: linear-gradient(#222932, #171D25);
+    width: 390px;
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
     text-align: left;
+    border-radius: 8% !important;
 }
 
 .starButton {
+    margin-bottom: 25px !important;
+}
+
+.starButton, .ratingIcon {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.03);
-    margin-bottom: 10px;
+    background-color: hsl(213, 19%, 18%) !important;
+    color: hsl(216, 12%, 54%) !important;
+    font-size: 15px !important;
+}
+
+.cardContent {
+    padding: 30px !important;
+}
+
+.content {
+    color: hsl(216, 12%, 54%) !important;
+    margin-bottom: 20px !important;
+    font-size: 15px !important;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 
 .cardActions {
     align-items: center;
     justify-content: center;
+    margin-bottom: 25px;
+}
+
+.submitButton {
+    background-color: hsl(25, 97%, 53%) !important;
+    color: white !important;
+    height: 45px;
+    width: 89%;
+    border-radius: 30px !important;
 }

@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Space+Mono:wght@700&display=swap');
+
+a, p, h1, h2, h3, h4, h5 {
+  font-family: 'Overpass', sans-serif !important;
+}
+
 .App {
   text-align: center;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1a1d22;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,3 +18,5 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+
